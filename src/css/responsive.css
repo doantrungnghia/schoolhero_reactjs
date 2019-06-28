@@ -1,0 +1,94 @@
+@media (min-width: 992px) {
+  .direct-intro-layout {
+    flex: 0 0 20% !important;
+    max-width: 20% !important ;
+  }
+}
+@media (max-width: 992px) {
+  header .header-logo-wrapper {
+    display: none;
+  }
+  header .header-menu {
+    margin-left: 0px;
+  }
+  header .header-menu li {
+    text-align: center;
+  }
+  header .header-menu li a {
+    text-align: center;
+  }
+  .banner .banner-search-input {
+    padding-left: 60px;
+  }
+  .banner .banner-search-txt {
+    display: none;
+    opacity: 0;
+  }
+  .direct .direct-name {
+    margin-right: 0px;
+  }
+  .direct .direct-school-logo {
+    right: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .mt-xs-2 {
+    margin-top: 8px;
+  }
+  .direct-library-container-row {
+    border-bottom: 2px solid transparent;
+  }
+}
+@media (max-width: 576px) {
+  .banner .btn-search {
+    top: 100%;
+    margin: 0 auto;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 10px;
+  }
+  .banner .btn-search {
+    padding: 10px 20px;
+  }
+  .schools .btn-area {
+    padding: 7px 10px;
+    margin-right: 2px;
+  }
+  .footer-title {
+    margin-top: 20px;
+  }
+  .direct-info .direct-name {
+    font-size: 25px;
+  }
+  .direct-nav-container {
+    padding-right: 0px;
+    padding-left: 5px;
+  }
+  .direct-nav .direct-nav-txt {
+    margin-right: 4px;
+  }
+  .direct-intro-subtitle {
+    margin-top: 20px;
+  }
+  .direct-intro-convenient-img {
+    padding-top: 0px;
+  }
+  .col-xs-2 {
+    width: 20%;
+  }
+  .col-xs-7 {
+    width: 70%;
+  }
+  .direct-comment-date {
+    margin-bottom: 4px;
+  }
+  .direct-library-nav {
+    display: inherit;
+  }
+  .direct .slick-arrow.slick-prev {
+    left: -20px;
+  }
+  .direct .slick-arrow.slick-next {
+    right: -20px;
+  }
+}

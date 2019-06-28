@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SCHOOL HERO | Class</title>
+    <!-----BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="../../css/bootstrap.css" />
+    <!---- CSS -->
+    <link rel="stylesheet" href="../../font/inter.css" />
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/core.css" />
+    <link rel="stylesheet" href="../../css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../slick/slick.css">
+  </head>
+  <body>
+    <header>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container nopadding">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon">
+              <!-- <img srcSet="../../images/logo.svg" alt="" srcset="" /> -->
+            </span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a className="navbar-brand" href="#">
+              <div className="header-logo-wrapper">
+                <img srcSet="../../images/logo.svg" />
+                <span className="header-logo-txt">Kindergarten</span>
+              </div>
+            </a>
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-0 header-menu">
+              <li className="nav-item active">
+                <a className="nav-link" href="#"
+                  >Trong nước <span className="sr-only">(current)</span></a
+                >
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Quốc tế</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Khóa học</a>
+              </li>
+            </ul>
+            <div className="form-inline my-2 my-lg-0 flex-center-center">
+              <img srcSet="../../images/eng.svg" alt="" srcset="" />
+              <div className="dropdown header-dropdown">
+                <button
+                  className="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  EN
+                </button>
+                <div
+                  className="dropdown-menu "
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a className="dropdown-item" href="#">English</a>
+                  <a className="dropdown-item" href="#">Vietnammese</a>
+                </div>
+              </div>
+              <button className="btn-signin">
+                Đăng nhập
+              </button>
+              <button className="btn-primary btn-signup">
+                Đăng ký
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div className="content">
+      <div className="home">
+        <div className="banner text-center">
+          <p className="banner-txt">TÌM KIẾM TRƯỜNG MẦM NON</p>
+          <div className="text-center">
+            <div className="banner-search flex-center">
+              <img
+                srcSet="../../images/direct.svg"
+                className="banner-search-direct"
+                alt=""
+                srcset=""
+              />
+              <span className="banner-search-txt flex-center">
+                Thành phố Hồ Chí Minh
+              </span>
+              <input type="text" className="banner-search-input" />
+              <button className="btn-primary btn-search">Tìm kiếm</button>
+            </div>
+          </div>
+          <div className="banner-element">
+            <img srcSet="../../images/banner-element.svg" className="img-fluid" alt="" />
+          </div>
+        </div>
+        <section className="guide">
+          <div className="container">
+            <h3 className="uppercase text-center guide-title">TÌM TRƯỜNG CHO BÉ?</h3>
+            <p className="guide-txt text-center ">Dành cho các bậc phụ huynh</p>
+            <div className="row guide-item-row first">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center ">
+                <img
+                  srcSet="../../images/search.svg"
+                  className="img-fluid"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div
+                className="col-lg-6 col-md-6 col-sm-6 col-xs-12 guide-item-content "
+              >
+                <div className="guide-number">1</div>
+                <p className="guide-content-title">
+                  Tìm kiếm trường cho các bé theo khu vực phù hợp<br />
+                  nhất với bạn
+                </p>
+                <p className="guide-content-txt">
+                  Lorem Ipsum is simply dummy text of the<br />
+                  printing and typesetting industry
+                </p>
+              </div>
+            </div>
+            <div className="row guide-item-row">
+              <div
+                className="col-lg-6 col-md-6 col-sm-6 col-xs-12 guide-item-content "
+              >
+                <div className="guide-number">2</div>
+                <p className="guide-content-title">
+                  Xem xét các thông tin về trường học Cơ sở vật chất, chương trình
+                  đào tạo
+                </p>
+                <p className="guide-content-txt">
+                  Lorem Ipsum is simply dummy text of the<br />
+                  printing and typesetting industry
+                </p>
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center ">
+                <img
+                  srcSet="../../images/see.svg"
+                  className="img-fluid"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+            <div className="row guide-item-row">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center ">
+                <img
+                  srcSet="../../images/report.svg"
+                  className="img-fluid"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div
+                className="col-lg-6 col-md-6 col-sm-6 col-xs-12 guide-item-content"
+              >
+                <div className="guide-number">3</div>
+                <p className="guide-content-title">
+                  Để lại nhận xét giúp các bậc phụ huynh khác
+                </p>
+                <p className="guide-content-txt">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="schools">
+          <div className="container">
+            <div className="row">
+              <h1 className="schools-title uppercase text-center">
+                DANH SÁCH TRƯỜNG
+              </h1>
+            </div>
+            <div className="row">
+              <div className="col-6">
+                <p className="uppercase schools-subtitle">
+                  THEO KHU VỰC
+                </p>
+              </div>
+              <div className="col-6 text-right">
+                <p className="schools-viewmore">
+                  Xem tất cả
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12">
+                <ul className="btn-area-wrapper">
+                  <li className="btn-area">TP. Hồ Chí Minh</li>
+                  <li className="btn-area">Hà Nội</li>
+                  <li className="btn-area">Đà Nẵng</li>
+                </ul>
+              </div>
+            </div>
+            <div className="row flex-wrapper">
+              <div className="schools-item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div className="schools-item-top">
+                  <img
+                    srcSet="../../images/school-1.jpg"
+                    className="img-fluid schools-banner"
+                    alt=""
+                    srcset=""
+                  />
+                  <div className="schools-direction flex-wrapper">
+                    <img
+                      className="schools-logo"
+                      srcSet="../../images/lemon-school.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <div>
+                      <p className="schools-item-name">
+                        Mầm non Qủa Chanh Vàng
+                      </p>
+                      <ul className="schools-item-score">
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img srcSet="../../images/star-no.svg" alt="" srcset="" />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="schools-item-center">
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/direction.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      590, đường Cách Mạng Tháng Tám, phường 11, quận 3, TP.HCM
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/a-tag.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      http://www.sgu.edu.vn
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/man.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      Từ 3 - 6 tuổi
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/money.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      12.000.000 vnd/năm
+                    </p>
+                  </div>
+                  <hr />
+                  <div className="schools-item-footer">
+                    <!-- <img srcSet="../../images/heart-2.jpg" alt="" srcset="" /> -->
+                    <div className="flex-wrapper">
+                      <img srcSet="../../images/comment.svg" alt="" srcset="" />
+                      <div className="schools-item-footer-txt">200 lượt thích</div>
+                    </div>
+                    <div className="flex-wrapper">
+                      <img srcSet="../../images/comment.svg" alt="" srcset="" />
+                      <div className="schools-item-footer-txt">200 bình luận</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12">
+                <p className="uppercase schools-subtitle schools-subtitle-style">
+                  TRƯƠNG QUỐC Tế
+                </p>
+              </div>
+            </div>
+            <div className="row flex-wrapper">
+              <div className="schools-item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div className="schools-item-top">
+                  <img
+                    srcSet="../../images/school-1.jpg"
+                    className="img-fluid schools-banner"
+                    alt=""
+                    srcset=""
+                  />
+                  <div className="schools-direction flex-wrapper">
+                    <img
+                      className="schools-logo"
+                      srcSet="../../images/lemon-school.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <div>
+                      <p className="schools-item-name">
+                        Mầm non Qủa Chanh Vàng
+                      </p>
+                      <ul className="schools-item-score">
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img srcSet="../../images/star-no.svg" alt="" srcset="" />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="schools-item-center">
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/direction.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      590, đường Cách Mạng Tháng Tám, phường 11, quận 3, TP.HCM
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/a-tag.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      http://www.sgu.edu.vn
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/man.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      Từ 3 - 6 tuổi
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item ">
+                    <img srcSet="../../images/money.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      12.000.000 vnd/năm
+                    </p>
+                  </div>
+                  <hr />
+                  <div className="schools-item-footer">
+                    <!-- <img srcSet="../../images/heart-2.jpg" alt="" srcset="" /> -->
+                    <div className="flex-wrapper">
+                      <img srcSet="../../images/comment.svg" alt="" srcset="" />
+                      <div className="schools-item-footer-txt">200 lượt thích</div>
+                    </div>
+                    <div className="flex-wrapper">
+                      <img srcSet="../../images/comment.svg" alt="" srcset="" />
+                      <div className="schools-item-footer-txt">200 bình luận</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12">
+                <p className="uppercase schools-subtitle schools-subtitle-style">
+                    Trường ĐƯỢC XEM NHIỀU NHẤT              
+                </p>
+              </div>
+            </div>
+            <div className="row flex-wrapper">
+              <div className="schools-item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div className="schools-item-top">
+                  <img
+                    srcSet="../../images/school-1.jpg"
+                    className="img-fluid schools-banner"
+                    alt=""
+                    srcset=""
+                  />
+                  <div className="schools-direction flex-wrapper">
+                    <img
+                      className="schools-logo"
+                      srcSet="../../images/lemon-school.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <div>
+                      <p className="schools-item-name">
+                        Mầm non Qủa Chanh Vàng
+                      </p>
+                      <ul className="schools-item-score">
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img
+                            srcSet="../../images/shape-star.svg"
+                            alt=""
+                            srcset=""
+                          />
+                        </li>
+                        <li className="schools-item-score-child">
+                          <img srcSet="../../images/star-no.svg" alt="" srcset="" />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="schools-item-center">
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/direction.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      590, đường Cách Mạng Tháng Tám, phường 11, quận 3, TP.HCM
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/a-tag.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      http://www.sgu.edu.vn
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/man.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      Từ 3 - 6 tuổi
+                    </p>
+                  </div>
+                  <div className="schools-item-center-item">
+                    <img srcSet="../../images/money.svg" alt="" srcset="" />
+                    <p className="schools-item-info">
+                      12.000.000 vnd/năm
+                    </p>
+                  </div>
+                  <hr />
+                  <div className="schools-item-footer">
+                    <!-- <img srcSet="../../images/heart-2.jpg" alt="" srcset="" /> -->
+                    <div className="flex-wrapper">
+                      <img srcSet="../../images/comment.svg" alt="" srcset="" />
+                      <div className="schools-item-footer-txt">200 lượt thích</div>
+                    </div>
+                    <div className="flex-wrapper">
+                      <img srcSet="../../images/comment.svg" alt="" srcset="" />
+                      <div className="schools-item-footer-txt">200 bình luận</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END CONTAINER-->
+        </section>
+        <section className="event">
+          <div className="container event-container">
+            <h3 className="event-title uppercase text-center">SỰ KIỆN CHO CÁC BÉ</h3>
+            <h4 className="event-subtitle text-center">Danh sách các hoạt động hữu ích<br>dành cho các bé</h4>
+            <div className="event-carousel">
+              <div className="event-carousel-item">
+                <img className="img-fluid" srcSet="../../images/event-1.svg" alt="" srcset="">
+              </div>
+              <div className="event-carousel-item">
+                <img className="img-fluid" srcSet="../../images/event-3.svg" alt="" srcset="">
+              </div>
+              <div className="event-carousel-item">
+                <img className="img-fluid" srcSet="../../images/event-3.svg" alt="" srcset="">
+              </div>
+              <div className="event-carousel-item">
+                <img className="img-fluid" srcSet="../../images/event-3.svg" alt="" srcset="">
+              </div>
+              <div className="event-carousel-item">
+                <img className="img-fluid" srcSet="../../images/event-3.svg" alt="" srcset="">
+              </div>
+              <div className="event-carousel-item">
+                <img className="img-fluid" srcSet="../../images/event-3.svg" alt="" srcset="">
+              </div>
+              <div className="event-carousel-item">
+                <img className="img-fluid" srcSet="../../images/event-3.svg" alt="" srcset="">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+              <h3 className="footer-name">SCHOOL HERO</h3>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+              <ul>
+                <li className="footer-title"><p>Tỉnh thành</p></li>
+                <li className="footer-txt"><p>Hà nội</p></li>
+                <li className="footer-txt"><p>Hồ Chí Minh</p></li>
+                <li className="footer-txt"><p>Đà Nẵng</p></li>
+                <li className="footer-txt"><p>Cần thơ</p></li>
+              </ul>
+            </div>
+            <div className="col-lg-3 mt-lg-0 col-md-6 mt-md-4 col-sm-6 mt-sm-4 col-xs-6">
+              <ul>
+                <li className="footer-title"><p>Phân Loại</p></li>
+                <li className="footer-txt"><p>Công lập</p></li>
+                <li className="footer-txt"><p>Tư nhân</p></li>
+                <li className="footer-txt"><p>Quốc tế</p></li>
+              </ul>
+            </div>
+            <div className="col-lg-3 mt-lg-0 col-md-6 mt-md-4 col-sm-6 mt-sm-4 col-xs-6">
+              <p className="footer-title">Giới thiệu</p>
+              <p className="footer-txt">61 Cao Thắng - F3 - Q3 - HCMC
+                  school-hero@kvytechnology.com</p>
+            </div>
+          </div>
+          <hr>
+          <p className="footer-copy">© Copyright 2018 - KVY Technology</p>
+        </div>
+      </footer>
+    <!--END CONTENT-->
+    <!-- <script srcSet="../../js/jquery.slim.min.js"></script>
+    <script srcSet="../../js/bootstrap.min.js"></script> -->
+    <script
+      srcSet="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      srcSet="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      srcSet="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script srcSet="../../slick/slick.js"></script>
+    <script srcSet="../../slick/carousel.js"></script>
+  </body>
+</html>

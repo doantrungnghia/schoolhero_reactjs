@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SCHOOL HERO | Class</title>
+    <!-----BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="../../css/bootstrap.css" />
+    <!---- CSS -->
+    <link rel="stylesheet" href="../../font/inter.css" />
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/core.css" />
+    <link rel="stylesheet" href="../../css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../slick/slick.css" />
+  </head>
+  <body>
+    <header>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container nopadding">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon">
+              <!-- <img srcSet="../../images/logo.svg" alt="" srcset="" /> -->
+            </span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a className="navbar-brand" href="#">
+              <div className="header-logo-wrapper">
+                <img srcSet="../../images/logo.svg" />
+                <span className="header-logo-txt">Kindergarten</span>
+              </div>
+            </a>
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-0 header-menu">
+              <li className="nav-item active">
+                <a className="nav-link" href="#"
+                  >Trong nước <span className="sr-only">(current)</span></a
+                >
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Quốc tế</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Khóa học</a>
+              </li>
+            </ul>
+            <div className="form-inline my-2 my-lg-0 flex-center-center">
+              <img srcSet="../../images/eng.svg" alt="" srcset="" />
+              <div className="dropdown header-dropdown">
+                <button
+                  className="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  EN
+                </button>
+                <div
+                  className="dropdown-menu "
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a className="dropdown-item" href="#">English</a>
+                  <a className="dropdown-item" href="#">Vietnammese</a>
+                </div>
+              </div>
+              <button className="btn-signin">
+                Đăng nhập
+              </button>
+              <button className="btn-primary btn-signup">
+                Đăng ký
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div className="content">
+      <div className="direct">
+        <section className="direct-banner">
+          <img
+            className="img-fluid"
+            srcSet="../../images/kinder-5.jpg"
+            alt=""
+            srcset=""
+          />
+        </section>
+        <div className="direct-direction">
+          <div className="direct-info">
+            <div className="container direct-container">
+              <div className="row nomargin">
+                <div className="col-9 pl-45">
+                  <div className="flex-center direct-info-item">
+                    <h2 className="direct-name uppercase">TRƯỜNG MẦM NON TTC</h2>
+                    <ul>
+                      <li className="direct-score">
+                        <img srcSet="../../images/star.svg" alt="" srcset="" />
+                      </li>
+                      <li className="direct-score">
+                        <img srcSet="../../images/star.svg" alt="" srcset="" />
+                      </li>
+                      <li className="direct-score">
+                        <img srcSet="../../images/star.svg" alt="" srcset="" />
+                      </li>
+                      <li className="direct-score">
+                        <img srcSet="../../images/star.svg" alt="" srcset="" />
+                      </li>
+                      <li className="direct-score">
+                        <img srcSet="../../images/star-no.svg" alt="" srcset="" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="flex-base direct-info-item">
+                    <img srcSet="../../images/direction.svg" alt="" srcset="" />
+                    <p className="direct-info-txt">
+                      590, đường Cách Mạng Tháng Tám, phường 11, quận 3, TP.HCM
+                    </p>
+                  </div>
+                  <div className="direct-info-item">
+                    <div className="container">
+                      <div className="row">
+                        <div
+                          className="col-lg-4 col-md-6 col-sm-12 col-xs-12 nopadding flex-base"
+                        >
+                          <img srcSet="../../images/a-tag.svg" alt="" srcset="" />
+                          <p className="direct-info-txt">
+                            http://www.sgu.edu.vn
+                          </p>
+                        </div>
+                        <div
+                          className="col-lg-8 col-md-6 col-sm-12 col-xs-12 mt-xs-3 flex-base nopadding mt-xs-2"
+                        >
+                          <img srcSet="../../images/phone.svg" alt="" srcset="" />
+                          <p className="direct-info-txt">028 435 42356</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="direct-info-item">
+                    <div className="container">
+                      <div className="row">
+                        <div
+                          className="col-lg-4 col-md-6 col-sm-12 col-xs-12 nopadding flex-base"
+                        >
+                          <img srcSet="../../images/man.svg" alt="" srcset="" />
+                          <p className="direct-info-txt">
+                            Từ 06 tháng đến 05 tuổi
+                          </p>
+                        </div>
+                        <div
+                          className="col-lg-8 col-md-6 col-sm-12 col-xs-12 mt-xs-3 flex-base nopadding mt-xs-2"
+                        >
+                          <img srcSet="../../images/money.svg" alt="" srcset="" />
+                          <p className="direct-info-txt">4.300.000 vnd/năm</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3 direct-school-wrapper">
+                  <img
+                    className="img-fluid direct-school-logo"
+                    srcSet="../../images/school-1.svg"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <hr />
+              </div>
+              <div className="row nomargin">
+                <div className="col-9 pl-45">
+                  <div className="container">
+                    <div className="row">
+                      <div
+                        className="col-lg-4 col-md-6 col-sm-12 col-xs-12 nopadding flex-base"
+                      >
+                        <img srcSet="../../images/comment.svg" alt="" srcset="" />
+                        <p className="direct-reaction">
+                          200 lượt thích
+                        </p>
+                      </div>
+                      <div
+                        className="col-lg-8 col-md-6 col-sm-12 col-xs-12 mt-xs-3 flex-base nopadding mt-xs-2"
+                      >
+                        <img srcSet="../../images/comment.svg" alt="" srcset="" />
+                        <p className="direct-reaction">200 bình luận</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END DIRECT INFO-->
+          <div className="direct-nav">
+            <div className="container direct-nav-container">
+              <ul className="flex-wrapper">
+                <li className="flex-base">
+                  <img srcSet="../../images/nav-img.svg" alt="" srcset="" />
+                  <div className="direct-nav-txt">Hình ảnh</div>
+                </li>
+                <li className="flex-base">
+                  <img srcSet="../../images/nav-info.svg" alt="" srcset="" />
+                  <div className="direct-nav-txt">Giới thiệu</div>
+                </li>
+                <li className="flex-base">
+                  <img srcSet="../../images/nav-fee.svg" alt="" srcset="" />
+                  <div className="direct-nav-txt">Học phí</div>
+                </li>
+                <li className="flex-base">
+                  <img srcSet="../../images/nav-comment.svg" alt="" srcset="" />
+                  <div className="direct-nav-txt">Ý kiến phản hồi</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="direct-library">
+            <div className="container">
+              <div className="row direct-library-title-wrapper">
+                <div className="col-12 nopadding">
+                  <h4 className="direct-library-title uppercase">Hình ảnh</h4>
+                </div>
+              </div>
+            </div>
+            <div className="direct-library-container container">
+              asd
+            </div>
+          </div>
+          <div className="direct-intro">
+            <div className="container">
+              <div className="row direct-intro-title-wrapper">
+                <div className="col-12 nopadding">
+                  <h4 className="direct-intro-title uppercase">Giới thiệu</h4>
+                </div>
+              </div>
+            </div>
+            <div className="direct-intro-container container">
+              <div className="row">
+                <div className="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                  <img
+                    className="direct-intro-logo img-fluid"
+                    srcSet="../../images/school-2.png"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div className="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                  <h3 className="direct-intro-subtitle">
+                    Trường mầm non TTC
+                  </h3>
+                  <p className="direct-intro-txt">
+                    Công ty Cổ phần Giáo dục Thành Thành Công (TTC EDU) hiện có
+                    08 trường mầm non tại TP.HCM, Bình Dương, Đồng Nai, Bến Tre.
+                    Trong đó, 5 trường thuộc hệ chất lượng cao và 3 trường thuộc
+                    hệ quốc tế. <br />
+                    Xuất phát từ tâm huyết xây dựng môi trường giáo dục “Yêu
+                    thương – Tôn trọng – Trách nhiệm”, mong muốn sẻ chia những
+                    kiến thức bổ ích trong việc chăm sóc và dạy dỗ trẻ được phát
+                    triển về cả “Tâm lực – Thể lực – Trí lực” thông qua sự gắn
+                    kết hiệu quả giữa gia đình – nhà trường, Hệ thống Trường Mầm
+                    non TTC (TTC Preschool) định hướng phát triển mạnh mẽ dựa
+                    trên 4 trụ cột chính: cơ sở vật chất, chương trình học -
+                    chăm dưỡng, đội ngũ và kết nối, nhằm hiện thực hóa mục tiêu
+                    "Mỗi cơ sở vừa là trường học, vừa là trung tâm tư vấn phương
+                    pháp giáo dục và phát triển trẻ được ưu tiên hàng đầu"
+                  </p>
+                </div>
+                <hr />
+              </div>
+              <p className="direct-intro-subtitle">Các tiện ích tại trường</p>
+              <div className="row">
+                <div
+                  className="offset-lg-1 col-lg-2 col-md-3 col-sm-4 col-xs-6 text-center"
+                >
+                  <img className="img-fluid" srcSet="../../images/bus.svg" alt="" />
+                  <p className="direct-intro-convenient-txt">
+                    Hệ thống xe bus
+                  </p>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-xs-6 text-center">
+                  <img className="img-fluid" srcSet="../../images/bed.svg" alt="" />
+                  <p className="direct-intro-convenient-txt">
+                    Phòng ngủ
+                  </p>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-xs-6 text-center">
+                  <img className="img-fluid" srcSet="../../images/park.svg" alt="" />
+                  <p className="direct-intro-convenient-txt">
+                    Khu vui chơi ngoài trời                  
+                  </p>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-xs-6 text-center">
+                  <img
+                    className="img-fluid"
+                    srcSet="../../images/nutrition.svg"
+                    alt=""
+                  />
+                  <p className="direct-intro-convenient-txt">
+                      Chế độ dinh dưỡng tiêu chuẩn
+                  </p>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-xs-6 text-center">
+                  <img
+                    className="img-fluid direct-intro-convenient-img"
+                    srcSet="../../images/english.svg"
+                    alt=""
+                  />
+                  <p className="direct-intro-convenient-txt">
+                      Chương trình ngoại ngữ
+                  </p>
+                </div>
+              </div>
+              <div className="row flex-0-center">
+                <div className="col-lg-2 col-md-3 col-sm-4 col-xs-6 text-center">
+                  <img className="img-fluid" srcSet="../../images/talent.svg" alt="" />
+                  <p className="direct-intro-convenient-txt">
+                      Chương trình năng khiếu
+                  </p>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-xs-6 text-center">
+                  <img className="img-fluid" srcSet="../../images/math.svg" alt="" />
+                  <p className="direct-intro-convenient-txt">
+                    Chương trình toán
+                  </p>
+                </div>
+                <div className="col-lg-2 col-md-3 col-sm-4 col-xs-6 text-center">
+                  <img className="img-fluid" srcSet="../../images/cart.svg" alt="" />
+                  <p className="direct-intro-convenient-txt">
+                    Hệ thống thanh toán tiện lợi
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="direct-comment">
+            <div className="container">
+              <div className="row direct-comment-title-wrapper">
+                <div className="col-12 nopadding">
+                  <h4 className="direct-comment-title uppercase">ý kiến phản hồi</h4>
+                </div>
+              </div>
+            </div>
+            <div className="direct-comment-container container">
+              <div className="direct-comment-item">
+                <div className="row">
+                  <div className="col-lg-1 col-sm-2 col-xs-2">
+                    <img className="img-fluid direct-comment-avt" srcSet="../../images/lemon-school.png" alt="" srcset="">
+                  </div>
+                  <div className="col-lg-11 col-sm-10 col-xs-7">
+                    <div className="direct-comment-name">
+                        Nguyễn Thành Công
+                    </div>
+                    <div className="direct-comment-date">
+                      16:00 23-04-2019
+                    </div>
+                    <ul>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-1 col-sm-2 col-xs-4">
+                  </div>
+                  <div className="col-lg-11 col-sm-10 col-xs-8">
+                    <div className="direct-comment-txt">
+                      Test Bình luận. TTC là một môi trường tốt. Các thiết bị cho sinh viên hiện đại. Thư viện chuẩn hóa quốc tế.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--END COMMENT 1-->
+              <div className="direct-comment-item">
+                <div className="row">
+                  <div className="col-lg-1 col-sm-2 col-xs-2">
+                    <img className="img-fluid direct-comment-avt" srcSet="../../images/lemon-school.png" alt="" srcset="">
+                  </div>
+                  <div className="col-lg-11 col-sm-10 col-xs-7">
+                    <div className="direct-comment-name">
+                        Nguyễn Thành Công
+                    </div>
+                    <div className="direct-comment-date">
+                      16:00 23-04-2019
+                    </div>
+                    <ul>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                      <li className="direct-comment-score">                    
+                        <img srcSet="../../images/star.svg" alt="" srcset="">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-1 col-sm-2 col-xs-4">
+                  </div>
+                  <div className="col-lg-11 col-sm-10 col-xs-8">
+                    <div className="direct-comment-txt">
+                      Test Bình luận. TTC là một môi trường tốt. Các thiết bị cho sinh viên hiện đại. Thư viện chuẩn hóa quốc tế.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--END COMMENT 1-->
+            </div>
+          </div>
+        </div>
+        <!--END DIRECT DIRECTION-->
+      </div>
+    </div>
+    <footer>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <h3 className="footer-name">SCHOOL HERO</h3>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <ul>
+              <li className="footer-title"><p>Tỉnh thành</p></li>
+              <li className="footer-txt"><p>Hà nội</p></li>
+              <li className="footer-txt"><p>Hồ Chí Minh</p></li>
+              <li className="footer-txt"><p>Đà Nẵng</p></li>
+              <li className="footer-txt"><p>Cần thơ</p></li>
+            </ul>
+          </div>
+          <div
+            className="col-lg-3 mt-lg-0 col-md-6 mt-md-4 col-sm-6 mt-sm-4 col-xs-6"
+          >
+            <ul>
+              <li className="footer-title"><p>Phân Loại</p></li>
+              <li className="footer-txt"><p>Công lập</p></li>
+              <li className="footer-txt"><p>Tư nhân</p></li>
+              <li className="footer-txt"><p>Quốc tế</p></li>
+            </ul>
+          </div>
+          <div
+            className="col-lg-3 mt-lg-0 col-md-6 mt-md-4 col-sm-6 mt-sm-4 col-xs-6"
+          >
+            <p className="footer-title">Giới thiệu</p>
+            <p className="footer-txt">
+              61 Cao Thắng - F3 - Q3 - HCMC school-hero@kvytechnology.com
+            </p>
+          </div>
+        </div>
+        <hr />
+        <p className="footer-copy">© Copyright 2018 - KVY Technology</p>
+      </div>
+    </footer>
+    <!--END CONTENT-->
+    <!-- <script srcSet="../../js/jquery.slim.min.js"></script>
+		<script srcSet="../../js/bootstrap.min.js"></script> -->
+    <script
+      srcSet="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      srcSet="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      srcSet="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script srcSet="../../slick/slick.js"></script>
+    <script srcSet="../../slick/carousel.js"></script>
+  </body>
+</html>
