@@ -29,33 +29,42 @@ class HomeContainer extends React.Component {
     }
   }
   onClickArrow(e) {
+    var listSearchItemFirst = document.querySelector(".banner-search-list li");
     var listSearchItem = document.querySelectorAll(".banner-search-list li");
-    if (e.keyCode === 38 || e.keyCode === 40) {
-      if (this.state.firstArrow === false) {
-        listSearchItem[0].classList.add("active");
-        this.setState({
-          firstArrow: true
-        });
-      } else {
-        var prevActive = document.querySelector(
-          ".banner-search-list li.active"
-        );
-        if (e.keyCode === 40) {
-          if (prevActive.nextElementSibling !== null) {
-            for (let i = 0; i < listSearchItem.length; i++) {
-              listSearchItem[i].classList.remove("active");
-            }
-            prevActive.nextElementSibling.classList.add("active");
-          }
+    if (listSearchItemFirst) {
+      if (e.keyCode === 38 || e.keyCode === 40) {
+        if (this.state.firstArrow === false) {
+          listSearchItemFirst.classList.add("active");
+          this.setState({
+            firstArrow: true
+          });
         } else {
-          if (prevActive.previousElementSibling !== null) {
-            for (let i = 0; i < listSearchItem.length; i++) {
-              listSearchItem[i].classList.remove("active");
+          let prevActive = document.querySelector(
+            ".banner-search-list li.active"
+          );
+          if (e.keyCode === 40) {
+            if (prevActive.nextElementSibling !== null) {
+              for (let i = 0; i < listSearchItem.length; i++) {
+                listSearchItem[i].classList.remove("active");
+              }
+              prevActive.nextElementSibling.classList.add("active");
             }
-            prevActive.previousElementSibling.classList.add("active");
+          } else if (e.keyCode === 38) {
+            if (prevActive.previousElementSibling !== null) {
+              for (let i = 0; i < listSearchItem.length; i++) {
+                listSearchItem[i].classList.remove("active");
+              }
+              prevActive.previousElementSibling.classList.add("active");
+            }
           }
         }
       }
+    }
+    if (e.keyCode === 13) {
+      let prevActive = document.querySelector(
+        ".banner-search-list li.active a"
+      );
+      if (prevActive !== null) prevActive.click();
     }
   }
   render() {

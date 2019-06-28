@@ -176,8 +176,7 @@ header .navbar-light .navbar-toggler-icon {
   z-index: 99;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
-  border-radius: 50px;
-  background-color: white;
+  background-color: #f1f2ff;
 }
 .banner-search-list img {
   width: 40px;
@@ -191,7 +190,7 @@ header .navbar-light .navbar-toggler-icon {
   transition: 0.5s;
 }
 .banner-search-list li.active {
-  background-color: #e7e7ff;
+  background-color: #b8b8ff;
 }
 .banner-search-list li:last-child {
   border-bottom: none;
